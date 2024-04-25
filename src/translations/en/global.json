@@ -1,0 +1,15 @@
+{
+  "navbar": {
+    "home" : "Home",
+    "about-me": "About me",
+    "projects": "Projects",
+    "tecnologies": "Tecnologies",
+    "contact": "Contact",
+    "curriculo": "Download CV"
+  },
+  "hero":{
+    "Im": "Hello I am",
+    "developer": "Front-end developer. I help you create user experiences that are not only visually attractive, but also intuitive and accessible.",
+    "ready": "¡Ready to turn code into something extraordinary!"
+  }
+}
