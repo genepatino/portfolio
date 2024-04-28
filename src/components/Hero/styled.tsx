@@ -40,7 +40,10 @@ export const HeroSection = styled.section`
   padding: 0 260px;
   background-color: ${colors.heroBlue};
   padding-top: 40px;
-  height: 170px;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 `;
 
 export const Navbar = styled.nav`
@@ -57,6 +60,7 @@ export const Navbar = styled.nav`
     width: 50%;
     justify-content: space-between;
     list-style: none;
+    gap: 10px;
 
     li {
       .goTo {
@@ -72,11 +76,11 @@ export const Navbar = styled.nav`
   }
 `;
 
-export const ButtonCV = styled.button`
+export const ButtonCV = styled.button<{ $backgroundColor?: string }>`
   width: 240px;
   height: 54px;
   padding: 20px;
-  background: transparent;
+  background: ${(props) => props.$backgroundColor || "transparent"};
   border: none;
   border: 2px solid #c7a6e7;
   border-radius: 50px;
@@ -122,12 +126,10 @@ export const AboutMe = styled.section`
 
     h3 {
       text-transform: uppercase;
-      font-weight: 900;
       letter-spacing: 5px;
-      font-size: 4.4rem;
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: #ffffff;
+      font-size: 4rem;
+      color: white;
+      font-weight: 200;
     }
     h2 {
       font-size: 7rem;
@@ -143,6 +145,7 @@ export const AboutMe = styled.section`
     .ready {
       letter-spacing: 0.18rem;
       font-size: 1.6rem;
+      font-weight: 500;
       color: #c7c7c7;
     }
   }
@@ -160,18 +163,18 @@ export const ImageContainer = styled.div`
     content: url(${shapsImg});
     position: absolute;
     right: 106px;
-    top: -46px;
+    top: 40px;
     z-index: 2;
     animation: ${shaps} 5s infinite;
   }
 
   img {
-    width: 500px;
-    height: 500px;
+    width: 480px;
+    height: 480px;
     object-fit: cover;
     border-radius: 50%;
-    margin-right: 140px;
+    margin-right: 110px;
     position: absolute;
-    top: -42px;
+    top: 0;
   }
 `;

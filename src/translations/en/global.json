@@ -11,5 +11,10 @@
     "Im": "Hello I am",
     "developer": "Front-end developer. I help you create user experiences that are not only visually attractive, but also intuitive and accessible.",
     "ready": "¡Ready to turn code into something extraordinary!"
+  },
+  "about-me-section": {
+    "p1": "I am an enthusiastic front-end developer with experience in Mechatronics Engineering and a self-taught transition to software development. My goal is to collaborate with teams that share my vision of making technology friendly for everyone.",
+    "br": "I am passionate about the integration between design and functionality.",
+    "p2": "My experience is not limited to just writing code. Additionally, I stand out for my ability to communicate assertively and effectively, and collaborate proactively with teams to translate user needs into practical solutions and elegant"
   }
 }

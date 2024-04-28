@@ -5,7 +5,7 @@ export const colors = {
   heroBlue: "#070268",
   dark: "#10152c",
   black: "#000",
-  gray: "#b9afaf",
+  gray: "#808080",
 };
 
 export const GlobalStyle = createGlobalStyle`

@@ -11,5 +11,10 @@
     "Im": "Hola, yo soy",
     "developer": "Desarrolladora front-end. Te ayudo a crear experiencias de usuario no solo visualmente atractivas, sino también intuitivas y accesibles.",
     "ready": "¡Lista para convertir código en algo extraordinario!"
+  },
+  "about-me-section": {
+    "p1": "Soy una entusiasta 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 con un trasfondo en Ingeniería Mecatrónica y una transición autodidacta hacia el desarrollo de software. Mi objetivo es colaborar con equipos que compartan mi visión de hacer que la tecnología sea amigable para todos.",
+    "br": "Me apasiona la integración entre el diseño y la funcionalidad.",
+    "p2": "Mi experiencia no se limita solo a la escritura de código. Además, destaco por mi habilidad para comunicarme de forma asertiva y efectiva, y colaborar de manera proactiva con los equipos para traducir las necesidades del usuario en soluciones prácticas y elegantes."
   }
 }
