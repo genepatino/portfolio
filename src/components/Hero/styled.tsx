@@ -61,7 +61,7 @@ export const NavbarContainer = styled.nav`
   letter-spacing: 0.1rem;
   font-weight: 500;
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 490px) {
     justify-content: space-between;
     gap: 0;
     padding: 24px 40px;

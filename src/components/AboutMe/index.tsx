@@ -28,7 +28,10 @@ function AboutMe() {
               {t("navbar.curriculo")}
             </a>
           </ButtonCV>
-          <Link target="_blank" to="https:www.linkedin.com/in/genesis-patino">
+          <Link
+            target="_blank"
+            to="https://www.linkedin.com/in/genesis-patino/"
+          >
             <img src={linkedin} alt="icon" />
           </Link>
           <Link target="_blank" to="https://github.com/genepatino">
