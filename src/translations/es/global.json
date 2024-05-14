@@ -8,7 +8,7 @@
     "curriculo": "Descargar CV"
   },
   "hero":{
-    "Im": "Hola, yo soy",
+    "Im": "Hola, soy",
     "developer": "Desarrolladora front-end. Te ayudo a crear experiencias de usuario no solo visualmente atractivas, sino también intuitivas y accesibles.",
     "ready": "¡Lista para convertir código en algo extraordinario!"
   },
@@ -16,5 +16,22 @@
     "p1": "Soy una entusiasta 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 con un trasfondo en Ingeniería Mecatrónica y una transición autodidacta hacia el desarrollo de software. Mi objetivo es colaborar con equipos que compartan mi visión de hacer que la tecnología sea amigable para todos.",
     "br": "Me apasiona la integración entre el diseño y la funcionalidad.",
     "p2": "Mi experiencia no se limita solo a la escritura de código. Además, destaco por mi habilidad para comunicarme de forma asertiva y efectiva, y colaborar de manera proactiva con los equipos para traducir las necesidades del usuario en soluciones prácticas y elegantes."
+  },
+  "projects": {
+    "collection": "Colección de mis proyectos",
+    "work": "Muestra de Trabajo",
+    "luxebazaar": ", es una desktop page. Una e-commers en la que podrás visualizar una lista de productos, filtrarlos por categoría y título. También podrás ver el detalle de un producto al seleccionarlo, aumentar o disminuir su cantidad, añadirlo al carrito de compra y/o eliminarlo del mismo. Cuenta además, con un sistema de traducciones y un loading skeleton para simular el estado de carga.",
+    "wetherwise": ", es una app del clima que inicialmente mostrará un estado de carga, mientras verifica si existe o no información previamente guardada en Local Storage. En caso contrario accede a la ubicación del usuario para mostrar el detalle del tiempo de su ciudad. El usuario podrá cambiar las unidades métricas de temperatura a través de un Switch, así como el idioma de la aplicación.",
+    "tasktide": ", es una app de notas diseñada para facilitar la gestión de sus tareas y horarios. Proporciona una experiencia rápida y sencilla para realizar un seguimiento de datos importantes, mensajes, listas de compras, cosas que hacer, etc. Incluye Drag and Drop."
+  },
+  "tecnologies": {
+    "tools": "herramientas"
+  },
+  "contact": {
+    "left-h2": "Me encantaría saber de ti,",
+    "right-h2": "¡Ponte en contacto!",
+    "thanks": "¡Gracias por explorar mi trabajo!",
+    "text-left": "¿Listo para desatar el potencial de tu proyecto con un enfoque fresco y funcional?",
+    "text-right": "¡Me encantaría colaborar contigo!"
   }
 }

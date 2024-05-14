@@ -15,6 +15,23 @@
   "about-me-section": {
     "p1": "I am an enthusiastic front-end developer with experience in Mechatronics Engineering and a self-taught transition to software development. My goal is to collaborate with teams that share my vision of making technology friendly for everyone.",
     "br": "I am passionate about the integration between design and functionality.",
-    "p2": "My experience is not limited to just writing code. Additionally, I stand out for my ability to communicate assertively and effectively, and collaborate proactively with teams to translate user needs into practical solutions and elegant"
+    "p2": "My experience is not limited to just writing code. Additionally, I stand out for my ability to communicate assertively and effectively, and collaborate proactively with teams to translate user needs into practical solutions and elegant."
+  },
+  "projects": {
+    "collection": "Collection of my projects",
+    "work": "Work showcase",
+    "luxebazaar": ", is a desktop page. An e-commers in which you can view a list of products, filter them by category and title. You will also be able to see the details of a product when selecting it, increasing or decreasing its quantity, adding it to the shopping cart and/or removing it from it. It also has a translation system and a loading skeleton to simulate the loading state.",
+    "wetherwise": ", is a weather app that will initially show a charging status, while verifying whether or not there is information previously saved in Local Storage. Otherwise, it accesses the user's location to show details of the weather in their city. The user will be able to change the metric temperature units through a Switch, as well as the language of the application.",
+    "tasktide": ", is a notes app designed to make it easier to manage your tasks and schedules. Provides a quick and easy experience for keeping track of important data, messages, shopping lists, things to do, etc. Includes Drag and Drop."
+  },
+  "tecnologies": {
+    "tools": "tools"
+  },
+  "contact": {
+    "left-h2": "I'd love to hear from you,",
+    "right-h2": "Get in touch!",
+    "thanks": "Thanks for exploring my work!",
+    "text-left": "Ready to unleash the potential of your project with a fresh and functional approach?",
+    "text-right": "I would love to collaborate with you!"
   }
 }

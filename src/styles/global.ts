@@ -6,6 +6,8 @@ export const colors = {
   dark: "#10152c",
   black: "#000",
   gray: "#808080",
+  darkGray: "#555",
+  purple: "#973af1"
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -35,6 +37,7 @@ export const GlobalStyle = createGlobalStyle`
   
   body{
     min-width: 360px;
+    /* max-width: 1600px; */
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
   };
