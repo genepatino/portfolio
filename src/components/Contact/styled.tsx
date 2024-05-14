@@ -115,7 +115,7 @@ export const Container = styled.section`
       }
 
       span {
-        @media screen and (max-width: 410px) {
+        @media screen and (max-width: 490px) {
           display: none;
         }
       }
