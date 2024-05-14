@@ -24,7 +24,7 @@ function Contact() {
         <Link
           className="link"
           target="_blank"
-          to="https:www.linkedin.com/in/genesis-patino"
+          to="https://www.linkedin.com/in/genesis-patino/"
         >
           <img src={linkedin} alt="icon" />
           <span>Linkedin</span>
