@@ -144,7 +144,7 @@ export const GridContainer = styled.section`
         height: 400px;
 
         @media screen and (max-width: 570px) {
-          width: 74%;
+          width: 68%;
           min-width: 320px;
           height: 300px;
         }

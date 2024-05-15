@@ -18,14 +18,7 @@ function ProjectsComponent() {
         <div className="container">
           <div className="video-container videoLuxe">
             <div className="title titleLuxe">
-              <h4>
-                <Link
-                  target="_blank"
-                  to="https://65de0800bb7acd009444b25b--superlative-moxie-f78436.netlify.app/"
-                >
-                  Luxee Bazaar
-                </Link>
-              </h4>
+              <h4>Luxee Bazaar</h4>
             </div>
             <video src={luxeBazaarVideo} controls />
           </div>
@@ -46,27 +39,14 @@ function ProjectsComponent() {
         <div className="container">
           <div className="video-container videoWeather">
             <div className="title titleWeather">
-              <h4>
-                <Link
-                  target="_blank"
-                  to="https://effervescent-dragon-bf467a.netlify.app/"
-                >
-                  Weather Wise
-                </Link>
-              </h4>
+              <h4>Weather Wise</h4>
             </div>
             <video src={weatherWiseVideo} controls />
           </div>
           <div className="image-project-resena">
             <img className="imagProject" src={weatherwiseImg} alt="" />
             <p className="resena">
-              <Link
-                target="_blank"
-                className="url"
-                to="https://effervescent-dragon-bf467a.netlify.app/"
-              >
-                Weather Wise
-              </Link>
+              Weather Wise
               {t("projects.wetherwise")}
             </p>
           </div>
@@ -74,14 +54,7 @@ function ProjectsComponent() {
         <div className="container">
           <div className="video-container videoTaskTide">
             <div className="title titleTaskTide">
-              <h4>
-                <Link
-                  target="_blank"
-                  to="https://genuine-pony-f9062e.netlify.app/"
-                >
-                  Task Tide
-                </Link>
-              </h4>
+              <h4>Task Tide</h4>
             </div>
             <video src={taskTideVideo} controls />
           </div>
