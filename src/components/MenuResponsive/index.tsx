@@ -9,6 +9,7 @@ import { Menu, SidebarMenu } from "./styled";
 import { ButtonCV } from "../Hero/styled";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import cvitae from "../../../public/curriculum-vitae.pdf";
 
 function MenuResponsive() {
   const [t] = useTranslation("global");
@@ -63,10 +64,7 @@ function MenuResponsive() {
         </ul>
         <ButtonCV $color="#6928e6" $width="100%">
           <FaDownload />
-          <a
-            href="../../../public/curriculum-vitae.pdf"
-            download="CV Génesis Patiño"
-          >
+          <a href={cvitae} download="curriculum-vitae.pdf">
             {t("navbar.curriculo")}
           </a>
         </ButtonCV>

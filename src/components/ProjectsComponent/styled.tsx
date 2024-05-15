@@ -61,6 +61,7 @@ export const GridContainer = styled.section`
   justify-content: center;
   flex-wrap: wrap;
   gap: 28px;
+  max-width: 1300px;
 
   @media screen and (max-width: 990px) {
     gap: 0;
@@ -148,29 +149,30 @@ export const GridContainer = styled.section`
           min-width: 320px;
           height: 300px;
         }
-
         @media screen and (max-width: 990px) {
           min-width: 320px;
           height: 300px;
         }
       }
 
-      &:hover {
-        animation: ${hoverVideo} 0.6s ease 0s 1 normal forwards;
-        border-radius: 20px;
+      @media screen and (min-width: 600px) {
+        &:hover {
+          animation: ${hoverVideo} 0.6s ease 0s 1 normal forwards;
+          border-radius: 20px;
 
-        @media screen and (max-width: 990px) {
-          animation: none;
-        }
+          @media screen and (max-width: 1000px) {
+            animation: none;
+          }
 
-        .title {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          gap: 20px;
-          padding: 0 20px;
-          background: linear-gradient(128deg, #4219dce6, #973af1c9);
+          .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 0 20px;
+            background: linear-gradient(128deg, #4219dce6, #973af1c9);
+          }
         }
       }
     }

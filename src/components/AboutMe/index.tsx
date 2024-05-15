@@ -7,6 +7,7 @@ import linkedin from "../../images/linkedin.png";
 import github from "../../images/github.png";
 import instagram from "../../images/instagram.png";
 import imgCode from "../../images/code.jpg";
+import cvitae from "../../../public/curriculum-vitae.pdf";
 
 function AboutMe() {
   const [t] = useTranslation("global");
@@ -21,10 +22,7 @@ function AboutMe() {
         <div className="button-icons">
           <ButtonCV $backgroundColor="linear-gradient(90deg, #4219dc, #973af1)">
             <FaDownload />
-            <a
-              href="../../../public/curriculum-vitae.pdf"
-              download="CV Génesis Patiño"
-            >
+            <a href={cvitae} download="curriculum-vitae.pdf">
               {t("navbar.curriculo")}
             </a>
           </ButtonCV>

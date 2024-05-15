@@ -7,6 +7,7 @@ import flagSpain from "../../images/flagspain.svg.png";
 import flagEEUU from "../../images/FlagEEUU.svg.png";
 import shapsImg from "../../images/shaps.png";
 import { NavbarContainer, ButtonCV, AboutMe, ImageContainer } from "./styled";
+import cvitae from "../../../public/curriculum-vitae.pdf";
 
 function Hero() {
   const [t, i18n] = useTranslation("global");
@@ -62,10 +63,7 @@ function Hero() {
         <div className="CV-languages">
           <ButtonCV>
             <FaDownload />
-            <a
-              href="../../../public/curriculum-vitae.pdf"
-              download="CV Génesis Patiño"
-            >
+            <a href={cvitae} download="curriculum-vitae.pdf">
               {t("navbar.curriculo")}
             </a>
           </ButtonCV>
