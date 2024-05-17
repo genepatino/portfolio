@@ -61,8 +61,7 @@ export const SidebarMenu = styled.section<{
           ${rightMenuExit} 0.5s ease 0s 1 normal forwards
         `};
 
-  display: ${(props) =>
-    props.$openMenu ? "block" : setTimeout(() => "none", 0.5)};
+  opacity: ${(props) => (props.$openMenu ? 1 : 0)};
   pointer-events: ${(props) => (props.$openMenu ? "auto" : "none")};
 
   @media screen and (min-width: 600px) {

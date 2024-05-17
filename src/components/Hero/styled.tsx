@@ -335,9 +335,13 @@ export const ImageContainer = styled.div`
   #shaps {
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 30%;
     height: 230px;
     animation: ${shaps} 5s infinite;
+
+    @media screen and (min-width: 490px) {
+      left: 50%;
+    }
 
     @media screen and (min-width: 760px) {
       height: 260px;
