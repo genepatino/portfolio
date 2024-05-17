@@ -46,7 +46,13 @@ function ProjectsComponent() {
           <div className="image-project-resena">
             <img className="imagProject" src={weatherwiseImg} alt="" />
             <p className="resena">
-              Weather Wise
+              <Link
+                target="_blank"
+                className="url"
+                to="https://effervescent-dragon-bf467a.netlify.app/"
+              >
+                Weather Wise
+              </Link>
               {t("projects.wetherwise")}
             </p>
           </div>
