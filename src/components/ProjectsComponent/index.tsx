@@ -28,7 +28,7 @@ function ProjectsComponent() {
               <Link
                 target="_blank"
                 className="url"
-                to="https://65de0800bb7acd009444b25b--superlative-moxie-f78436.netlify.app/"
+                to="https://superlative-moxie-f78436.netlify.app/"
               >
                 Luxe Bazaar
               </Link>
