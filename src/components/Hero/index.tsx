@@ -7,7 +7,8 @@ import flagSpain from "../../images/flagspain.svg.png";
 import flagEEUU from "../../images/FlagEEUU.svg.png";
 import shapsImg from "../../images/shaps.png";
 import { NavbarContainer, ButtonCV, AboutMe, ImageContainer } from "./styled";
-import cvitae from "../../../public/curriculum-vitae.pdf";
+import cvitae from "../../curriculum-vitae.pdf";
+/* import cvitae from "../../../public/curriculum-vitae.pdf"; */
 
 function Hero() {
   const [t, i18n] = useTranslation("global");

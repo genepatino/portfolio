@@ -7,7 +7,7 @@ import linkedin from "../../images/linkedin.png";
 import github from "../../images/github.png";
 import instagram from "../../images/instagram.png";
 import imgCode from "../../images/code.jpg";
-import cvitae from "../../../public/curriculum-vitae.pdf";
+import cvitae from "../../curriculum-vitae.pdf";
 
 function AboutMe() {
   const [t] = useTranslation("global");

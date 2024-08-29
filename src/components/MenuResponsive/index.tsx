@@ -9,7 +9,7 @@ import { Menu, SidebarMenu } from "./styled";
 import { ButtonCV } from "../Hero/styled";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import cvitae from "../../../public/curriculum-vitae.pdf";
+import cvitae from "../../curriculum-vitae.pdf";
 
 function MenuResponsive() {
   const [t] = useTranslation("global");
