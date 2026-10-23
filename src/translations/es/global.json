@@ -1,28 +1,81 @@
 {
   "navbar": {
-    "home" : "Inicio",
+    "home": "Inicio",
     "about-me": "Sobre mí",
-    "projects": "Projectos",
+    "projects": "Proyectos",
     "tecnologies": "Tecnologías",
     "contact": "Contacto",
     "curriculo": "Descargar CV"
   },
-  "hero":{
+  "hero": {
     "Im": "Hola, soy",
     "developer": "Desarrolladora front-end. Te ayudo a crear experiencias de usuario no solo visualmente atractivas, sino también intuitivas y accesibles.",
     "ready": "¡Lista para convertir código en algo extraordinario!"
   },
   "about-me-section": {
-    "p1": "Soy una entusiasta 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 con un trasfondo en Ingeniería Mecatrónica y una transición autodidacta hacia el desarrollo de software. Mi objetivo es colaborar con equipos que compartan mi visión de hacer que la tecnología sea amigable para todos.",
-    "br": "Me apasiona la integración entre el diseño y la funcionalidad.",
-    "p2": "Mi experiencia no se limita solo a la escritura de código. Además, destaco por mi habilidad para comunicarme de forma asertiva y efectiva, y colaborar de manera proactiva con los equipos para traducir las necesidades del usuario en soluciones prácticas y elegantes."
+    "p1": "Soy Frontend Developer con más de 2 años de experiencia construyendo aplicaciones React de nivel empresarial. En Spidersecurity desarrollo HyperGenIA, una plataforma BPMS con más de 600 usuarios en organizaciones como el ICFES, donde participo desde la arquitectura de componentes hasta el despliegue en producción, con foco en rendimiento, calidad de código y experiencia de usuario.",
+    "br": "Lo que me diferencia es entender el problema detrás del requerimiento: traducir las necesidades reales de los usuarios en interfaces claras es lo que hace que una herramienta compleja se use.",
+    "p2": "Vengo de la Ingeniería Mecatrónica, de donde traigo la base en lógica y programación. Creo que un buen producto se construye con buen código y con buena comunicación, y hoy busco seguir creciendo en responsabilidad, en impacto y en los problemas que resuelvo."
   },
   "projects": {
     "collection": "Colección de mis proyectos",
     "work": "Muestra de Trabajo",
-    "luxebazaar": ", es una desktop page. Una e-commers en la que podrás visualizar una lista de productos, filtrarlos por categoría y título. También podrás ver el detalle de un producto al seleccionarlo, aumentar o disminuir su cantidad, añadirlo al carrito de compra y/o eliminarlo del mismo. Cuenta además, con un sistema de traducciones y un loading skeleton para simular el estado de carga.",
-    "wetherwise": ", es una app del clima que inicialmente mostrará un estado de carga, mientras verifica si existe o no información previamente guardada en Local Storage. En caso contrario accede a la ubicación del usuario para mostrar el detalle del tiempo de su ciudad. El usuario podrá cambiar las unidades métricas de temperatura a través de un Switch, así como el idioma de la aplicación.",
-    "tasktide": ", es una app de notas diseñada para facilitar la gestión de sus tareas y horarios. Proporciona una experiencia rápida y sencilla para realizar un seguimiento de datos importantes, mensajes, listas de compras, cosas que hacer, etc. Incluye Drag and Drop."
+    "professional": "Experiencia profesional",
+    "personal": "Proyectos personales",
+    "labels": {
+      "context": "Contexto",
+      "role": "Mi rol",
+      "decisions": "Decisiones técnicas",
+      "stack": "Stack",
+      "production": "Ver en producción",
+      "repo": "Ver código"
+    },
+    "items": {
+      "pqrs": {
+        "title": "Formulario público de PQRS — ICFES",
+        "organization": "Spidersecurity · Cliente: ICFES",
+        "period": "2024 – actualidad",
+        "context": "El ICFES necesitaba un canal público para que cualquier ciudadano pudiera radicar peticiones, quejas, reclamos, sugerencias, denuncias y felicitaciones, conectado a HyperGenIA, la plataforma BPMS donde se gestiona cada solicitud.",
+        "role": "Frontend Developer. Desarrollé el formulario completo, desde la interfaz hasta la integración con los endpoints, y sigo a cargo de su evolución.",
+        "highlights": [
+          "Réplica fiel del diseño propuesto por el cliente.",
+          "Participación en reuniones de requerimientos con el ICFES, sirviendo de puente entre su feedback y el equipo de desarrollo."
+        ],
+        "decisions": [
+          "Mejoras de usabilidad y accesibilidad sobre el diseño original, con validación por campo y mensajes de error claros.",
+          "Formulario por pasos con campos dependientes: departamento y ciudad se habilitan y cargan desde la API según el país elegido.",
+          "Consulta a endpoints para los catálogos del formulario (tipo de solicitud, solicitante, examen, ubicación) y optimización de las peticiones y del renderizado."
+        ],
+        "codeNote": "Código propiedad de Spidersecurity, no es público. El formulario se puede probar en producción."
+      },
+      "cifre": {
+        "title": "Cifre Academy — Plataforma LMS",
+        "organization": "Cifre Academy · Freelance",
+        "period": "abril – junio 2026",
+        "context": "Cifre necesitaba una plataforma propia de formación en ciberseguridad, con catálogo de cursos, lecciones, evaluaciones y certificados, y que pudiera administrar su contenido sin depender del equipo técnico. Hoy la usan más de 60 personas.",
+        "role": "Frontend Developer en un equipo frontend de 2 personas. Llevamos la plataforma de cero a producción en 3 meses.",
+        "highlights": [
+          "Experiencia completa del estudiante: landing page, catálogo con filtros, detalle de curso, lecciones, evaluaciones y certificados.",
+          "Panel de administración para que el cliente gestione su contenido de forma autónoma, incluido el banco de preguntas y la apariencia de la marca."
+        ],
+        "decisions": [
+          "Arquitectura de componentes y convenciones definidas desde el inicio junto a mi compañero, para sostener la consistencia visual y la velocidad de entrega.",
+          "Autenticación con cookie httpOnly: el token nunca queda expuesto en JavaScript, y un interceptor de Axios cierra la sesión ante un 401.",
+          "Separación de roles estudiante/administrador con rutas protegidas que esperan a que se restaure la sesión antes de redirigir.",
+          "TanStack Query para los datos del servidor y Redux Toolkit solo para el estado de la sesión."
+        ],
+        "codeNote": "Código privado del cliente. La plataforma se puede recorrer en producción."
+      },
+      "luxebazaar": {
+        "summary": ", es una desktop page. Una e-commerce en la que podrás visualizar una lista de productos, filtrarlos por categoría y título. También podrás ver el detalle de un producto al seleccionarlo, aumentar o disminuir su cantidad, añadirlo al carrito de compra y/o eliminarlo del mismo. Cuenta además, con un sistema de traducciones y un loading skeleton para simular el estado de carga."
+      },
+      "weatherwise": {
+        "summary": ", es una app del clima que inicialmente mostrará un estado de carga, mientras verifica si existe o no información previamente guardada en Local Storage. En caso contrario accede a la ubicación del usuario para mostrar el detalle del tiempo de su ciudad. El usuario podrá cambiar las unidades métricas de temperatura a través de un Switch, así como el idioma de la aplicación."
+      },
+      "tasktide": {
+        "summary": ", es una app de notas diseñada para facilitar la gestión de sus tareas y horarios. Proporciona una experiencia rápida y sencilla para realizar un seguimiento de datos importantes, mensajes, listas de compras, cosas que hacer, etc. Incluye Drag and Drop."
+      }
+    }
   },
   "tecnologies": {
     "tools": "herramientas"

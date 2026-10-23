@@ -1,28 +1,81 @@
 {
   "navbar": {
-    "home" : "Home",
+    "home": "Home",
     "about-me": "About me",
     "projects": "Projects",
     "tecnologies": "Tecnologies",
     "contact": "Contact",
     "curriculo": "Download CV"
   },
-  "hero":{
+  "hero": {
     "Im": "Hello I am",
     "developer": "Front-end developer. I help you create user experiences that are not only visually attractive, but also intuitive and accessible.",
     "ready": "¡Ready to turn code into something extraordinary!"
   },
   "about-me-section": {
-    "p1": "I am an enthusiastic front-end developer with experience in Mechatronics Engineering and a self-taught transition to software development. My goal is to collaborate with teams that share my vision of making technology friendly for everyone.",
-    "br": "I am passionate about the integration between design and functionality.",
-    "p2": "My experience is not limited to just writing code. Additionally, I stand out for my ability to communicate assertively and effectively, and collaborate proactively with teams to translate user needs into practical solutions and elegant."
+    "p1": "I am a Frontend Developer with more than 2 years of experience building enterprise-grade React applications. At Spidersecurity I work on HyperGenIA, a BPMS platform with more than 600 users in organizations such as ICFES, where I contribute from component architecture to production deployment, focusing on performance, code quality and user experience.",
+    "br": "What sets me apart is understanding the problem behind the requirement: turning real user needs into clear interfaces is what makes a complex tool actually get used.",
+    "p2": "My background is in Mechatronics Engineering, which gave me a foundation in logic and programming. I believe a good product is built with good code and good communication, and I am looking to keep growing in responsibility, impact and the problems I solve."
   },
   "projects": {
     "collection": "Collection of my projects",
     "work": "Work showcase",
-    "luxebazaar": ", is a desktop page. An e-commers in which you can view a list of products, filter them by category and title. You will also be able to see the details of a product when selecting it, increasing or decreasing its quantity, adding it to the shopping cart and/or removing it from it. It also has a translation system and a loading skeleton to simulate the loading state.",
-    "wetherwise": ", is a weather app that will initially show a charging status, while verifying whether or not there is information previously saved in Local Storage. Otherwise, it accesses the user's location to show details of the weather in their city. The user will be able to change the metric temperature units through a Switch, as well as the language of the application.",
-    "tasktide": ", is a notes app designed to make it easier to manage your tasks and schedules. Provides a quick and easy experience for keeping track of important data, messages, shopping lists, things to do, etc. Includes Drag and Drop."
+    "professional": "Professional experience",
+    "personal": "Personal projects",
+    "labels": {
+      "context": "Context",
+      "role": "My role",
+      "decisions": "Technical decisions",
+      "stack": "Stack",
+      "production": "View in production",
+      "repo": "View code"
+    },
+    "items": {
+      "pqrs": {
+        "title": "Public PQRS form — ICFES",
+        "organization": "Spidersecurity · Client: ICFES",
+        "period": "2024 – present",
+        "context": "ICFES, a Colombian government agency, needed a public channel where any citizen could file petitions, complaints, claims, suggestions, reports and compliments, connected to HyperGenIA, the BPMS platform where each request is processed.",
+        "role": "Frontend Developer. I built the entire form, from the interface to the endpoint integration, and I remain in charge of its evolution.",
+        "highlights": [
+          "Faithful implementation of the design proposed by the client.",
+          "Took part in requirements meetings with ICFES, bridging their feedback and the development team."
+        ],
+        "decisions": [
+          "Usability and accessibility improvements over the original design, with per-field validation and clear error messages.",
+          "Multi-step form with dependent fields: state and city are enabled and loaded from the API based on the selected country.",
+          "Endpoint queries for the form catalogs (request type, requester, exam, location) and optimization of requests and rendering."
+        ],
+        "codeNote": "Code owned by Spidersecurity, not public. The form can be tried in production."
+      },
+      "cifre": {
+        "title": "Cifre Academy — LMS platform",
+        "organization": "Cifre Academy · Freelance",
+        "period": "April – June 2026",
+        "context": "Cifre needed its own cybersecurity training platform, with a course catalog, lessons, exams and certificates, and the ability to manage its content without relying on the tech team. It now has more than 60 users.",
+        "role": "Frontend Developer in a 2-person frontend team. We took the platform from zero to production in 3 months.",
+        "highlights": [
+          "Full student experience: landing page, filterable catalog, course details, lessons, exams and certificates.",
+          "Admin panel so the client can manage its content autonomously, including the question bank and brand appearance."
+        ],
+        "decisions": [
+          "Component architecture and project conventions defined from day one with my teammate, to keep visual consistency and delivery speed.",
+          "httpOnly cookie authentication: the token is never exposed to JavaScript, and an Axios interceptor logs the user out on a 401.",
+          "Student/admin role separation with protected routes that wait for the session to be restored before redirecting.",
+          "TanStack Query for server data and Redux Toolkit only for session state."
+        ],
+        "codeNote": "Private client code. The platform can be explored in production."
+      },
+      "luxebazaar": {
+        "summary": ", is a desktop page. An e-commerce in which you can view a list of products, filter them by category and title. You will also be able to see the details of a product when selecting it, increasing or decreasing its quantity, adding it to the shopping cart and/or removing it from it. It also has a translation system and a loading skeleton to simulate the loading state."
+      },
+      "weatherwise": {
+        "summary": ", is a weather app that will initially show a charging status, while verifying whether or not there is information previously saved in Local Storage. Otherwise, it accesses the user's location to show details of the weather in their city. The user will be able to change the metric temperature units through a Switch, as well as the language of the application."
+      },
+      "tasktide": {
+        "summary": ", is a notes app designed to make it easier to manage your tasks and schedules. Provides a quick and easy experience for keeping track of important data, messages, shopping lists, things to do, etc. Includes Drag and Drop."
+      }
+    }
   },
   "tecnologies": {
     "tools": "tools"
